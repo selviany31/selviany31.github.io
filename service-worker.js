@@ -40,7 +40,7 @@ else
     {url: '/assets/maskable_icon1.png', revision: '1'},
     {url: '/assets/no.png', revision: '1'},
     {url: '/assets/yes.png', revision: '1'},
-    {url: '/manifest.json', revision: '1'},
+    {url: '/manifest.json', revision: '2'},
     {url: '/push.js', revision: '1'}
   ], {
   ignoreUrlParametersMatching: [/.*/]
