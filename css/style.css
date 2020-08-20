@@ -1,0 +1,27 @@
+body {
+    background-color: #e8f5e9;
+}
+.countries {
+    padding-top: 20px;
+}
+.countries a {
+    font-size: 15px;
+    color: black;
+    padding-top: 20px;
+}
+.chevron-right {
+    padding-bottom: 5px;
+}
+#loader {
+    position:fixed;
+    top:50%;
+    left:50%;
+}
+ul#logo li {
+    display: inline;
+}
+.contact img {
+    width: 100px;
+    height: 120px;
+    
+}

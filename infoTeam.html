@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Teams</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00897b" />
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="light-green darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">
+                <ul id="logo">
+                    <li><img class="responsive-img" src="/assets/logo1.png" width="50px" style="padding-top: 10px;"></li>
+                    <li class="hide-on-small-only">Super Teams</li>
+                </ul>
+            </a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <!-- Body Content -->
+    <div class="container">
+        <div id="loader"></div>
+        <div id="body-content">
+            <div class="col s12 m7">
+                <h2 class="light-green-text text-darken-4 center-align">Team Information</h2>
+                <p class="divider" tabindex="-1"></p>
+                <div class="card">
+                    <div id="info-team"></div>
+                    <div class="card-reveal" id="squads"></div>
+            </div>
+            <div id="back-to"></div>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red" id="favorite">
+                <i class="large material-icons" id="btnAdd">favorite_border</i>
+                </a>
+            </div>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red" id="delete">
+                <i class="large material-icons">delete</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Body Content -->
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
